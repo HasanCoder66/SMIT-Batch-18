@@ -1,0 +1,73 @@
+/* p {
+    color: blue;
+} */
+
+
+/* * {
+    background-color: black;
+    color: white;
+} */
+
+/* #text {
+    background-color: black;
+    color: orange;
+} */
+
+/* .para {
+    background-color: black;
+    color: orange;
+}
+
+.para {
+    background-color: white;
+    color: black;
+}
+
+#text {
+    background-color: yellow;
+    color: aqua;
+}
+
+.para {
+    background-color: white!important;
+    color: black!important;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+/* .para {
+    background-color: brown!important;
+    color: white!important;
+} */
+
+
+/* p+.para {
+    color: yellow;
+}
+
+h1~p {
+    background-color: black;
+} */
+
+
+/* .parent > .firstName {
+    background-color: blue;
+    color: white;
+} */
+/* .parent~p {
+    background-color: blue;
+    color: white;
+} */
+.firstName +p {
+    background-color: blue;
+    color: white;
+}

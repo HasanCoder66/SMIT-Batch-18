@@ -1,0 +1,42 @@
+/* Universal Selector */
+
+/* * {
+    background-color: cadetblue;
+    font-size: 45px;
+} */
+
+/* p {
+    color: beige!important;
+    font-size: 45px;
+} */
+
+/* .class {
+    background-color: black!important;
+    color: white;
+} */
+
+/* .class {
+    color: blue;
+} */
+/* .class {
+    color: yellow;
+} */
+
+/* #para {
+    background-color: white;
+} */
+
+/* div > p {
+    color: aqua;
+} */
+
+
+
+/* .list > a {
+    color: blue;
+} */
+
+
+.parent > p > span > a {
+    background-color: purple;
+}
