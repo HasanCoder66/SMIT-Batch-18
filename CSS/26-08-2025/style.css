@@ -1,0 +1,12 @@
+p {
+    background-color: black;
+    color: rgba(100, 100, 200, 0.5);
+    font-size: 35px;
+    /* opacity: 0.5; */
+}
+.name {
+    background-color: rgba(100, 100, 200,1);
+    color: white;
+    font-size: 35px;
+    /* opacity: 0.5; */
+}
