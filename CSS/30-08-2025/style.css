@@ -1,0 +1,41 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(fonts/Poppins-Black.ttf);
+}
+
+
+/* @font-face {
+    font-family: ;
+    src: url();
+} */
+p {
+    /* font-family: Poppins; */
+    /* font-size: 25px; */
+    /* font-weight: 800; */
+    font-style: italic;
+    text-transform: uppercase;
+    /* text-decoration: ; */
+    /* line-height: 200%; */
+    /* letter-spacing:30px ;
+    word-spacing: 25px; */
+    /* text-align: center !important; */
+    /* text-align: justify; */
+    background-color: orange;
+    text-indent: 40px;
+
+}
+
+p > a {
+    text-decoration: none;
+}
+
+/* 
+h1 {
+    font-size: 1.3em;
+    font-family: Montserrat;
+} */
