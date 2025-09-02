@@ -1,0 +1,110 @@
+h1:hover {
+    text-shadow: 2px 2px 2px orange;
+}
+
+/* p::first-letter{
+    color: orange;
+    text-transform: uppercase;
+} */
+/* p::first-line{
+    color: orange;
+    text-transform: uppercase;
+} */
+
+/* a {
+   color: black; 
+} */
+a:link {
+    color: orange;
+}
+
+a:visited {
+    color: red;
+}
+
+a:active {
+    color: green;
+}
+
+input:hover {
+    /* background-color: aqua; */
+}
+input:focus {
+    /* background-color: blue; */
+    border:none;
+}
+input:active {
+
+    border:none;
+}
+
+input {
+    /* border: none; */
+    /* outline: none; */
+}
+
+body {
+ 
+}
+/* .box {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+
+.child {
+    width: 50%;
+    height: 100%;
+    background-color: orange;
+}
+
+span {
+    background-color: blue;
+} */
+
+/* .box {
+    min-width: 200px;
+    max-width: 1000px;
+}
+.box > img {
+    width: 100%;
+} */
+
+.box {
+    width: 300px;
+    height: 300px;
+    /* border: 2px dotted black; */
+    /* border-style: solid;
+    border-width: 1px 4px 12px 4px;  */
+    /* border: black;
+    /* border-color: black;
+    border-top-width: 5px; */
+    /* border: 2px dashed black; */
+}
+/* .box > p {
+    background-color: orange;
+    color: black;
+    width: 300px;
+    min-height: 200px;
+    max-height: 550px;
+    overflow-y: scroll;
+    
+} */
+
+/* * {
+    margin: 0px;
+    padding: 0px;
+} */
+
+/* .box {
+    border: 2px solid red;
+    margin: 20px; 
+    } */
+    /* text-align: center;
+    border-top-width: 2px;
+    border-bottom-width: 5px;
+    border-width: thick;
+    width: 300px;
+    height: 300px;
+    
+
