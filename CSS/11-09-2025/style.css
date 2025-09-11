@@ -1,0 +1,83 @@
+.box {
+    width: 300px;
+    background-color: blue;
+    height: 300px;
+    /* position: absolute; */
+    z-index: 10;
+    
+}
+.box2 {
+    width: 200px;
+    background-color: red;
+    height: 200px;
+    /* position: absolute; */
+    top: 10px;
+    right: 10px;
+    /* z-index: -10px; */
+}
+
+/* img {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+} */
+
+* {
+    color: black;
+    /* background-color: black; */
+}
+.navbar {
+    width: 100%;
+    height: 70px;
+    /* background-color: white; */
+    position: fixed;
+    top: 0px;
+}
+
+.z {
+    position: absolute;
+    z-index: 100;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin: 0px auto;
+}
+
+
+body {
+    /* background-image: linear-gradient(); */
+    background: #2A7B9B;
+background: linear-gradient(180deg, rgba(42, 123, 155, 1) 0%, rgba(58, 74, 63, 1) 31%, rgba(237, 221, 83, 1) 100%);
+     width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: contain;
+}
+
+.input {
+    width: 300px;
+    height: 80px;
+    position: relative;
+    /* background-color: red; */
+}
+
+.input > input  {
+    width: 100%;
+    height: 100%;
+}
+.input > img  {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+input::placeholder{
+    padding-left: 70px;
+}
