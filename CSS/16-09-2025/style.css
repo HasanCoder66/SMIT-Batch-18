@@ -1,0 +1,10 @@
+.font {
+    font-size: 40px;
+    color: red;
+}
+
+div {
+    background-color: blue;
+    height: 400px;
+    width: 400px;
+}
