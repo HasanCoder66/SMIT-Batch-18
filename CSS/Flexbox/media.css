@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: aqua;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.boxes {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width:576px) {
+    .container {
+        background-color: red;
+    }
+}
+@media only screen and (min-width:576px) {
+    .container {
+        background-color: blue;
+    }
+}
+@media only screen and (min-width:768px) {
+    .container {
+        background-color: blueviolet;
+    }
+}
+
+@media only screen and (max-width:400px) {
+.container {
+    height: auto;
+}
+    .boxes {
+    margin: 10px;
+}
+}
