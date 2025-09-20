@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+}
+.container {
+  background-color: #f2f4f7;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.logo {
+  height: 100px;
+  width: 300px;
+}
+
+.box1 > p {
+  font-size: 24px;
+  font-weight: 400;
+  width: 450px;
+  margin-left: 20px;
+}
+
+.box2 {
+  width: 400px;
+  height: 350px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 5px;
+}
+
+.inputEmail,
+.inputPass {
+  height: 50px;
+  padding: 15px 20px 5px 10px;
+}
+
+.inputEmail > input,
+.inputPass > input {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  padding-left: 10px;
+  border: 1px solid gray;
+  font-size: 16px;
+}
+.inputEmail > input:focus,
+.inputPass > input:focus {
+  outline: none;
+  border: 1px solid #0866ff;
+}
+
+.inputPass {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  right: 20px;
+  top: 35px;
+}
+
+.buttonParent {
+  width: 100%;
+  height: 50px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.buttonParent > button {
+  width: 95%;
+  height: 100%;
+  background-color: #0866ff;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.buttonParent > button:hover {
+  background-color: #0866ff;
+  opacity: 0.9;
+}
+
+.text > p {
+  color: #0866ff;
+  text-align: center;
+  margin: 20px 0px;
+  cursor: pointer;
+}
+.text > p:hover {
+  text-decoration: underline;
+}
+.text > hr {
+  border: 1px solid rgb(237, 231, 231);
+  width: 90%;
+  margin: 0px auto;
+}
+
+.register {
+  width: 100%;
+  height: 50px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.register > button {
+  background-color: #42b72a;
+  width: 50%;
+  height: 100%;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.register > button:hover {
+  background-color: #358825;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 769px) {
+  .container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .box1 > p {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .box2 {
+    width: 90%;
+  }
+}
