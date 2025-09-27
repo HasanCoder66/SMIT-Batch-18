@@ -127,6 +127,11 @@
   background-color: #358825;
 }
 
+.register > button > a {
+  text-decoration: none;
+  color: white;
+}
+
 /* Media Queries */
 
 @media only screen and (max-width: 769px) {
