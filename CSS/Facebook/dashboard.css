@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+
+/* nav Css */
+nav {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.inputBox {
+    height: 50px;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.inputBox>input {
+    height: 100%;
+    width: 100%;
+    padding-left: 20px;
+    border-radius: 25px;
+    font-size: 20px;
+    border: 1px solid gray;
+
+}
+
+.inputBox>input:focus {
+    outline: none;
+
+}
+
+.centerBox>i,
+.rightBox>i {
+    font-size: 25px;
+}
+
+
+.rightBox>img, .colFirst > div > img, .colThird > div > img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+
+/* section 2 */
+
+.colFirst , .colThird {
+    height: 680px;
+    overflow-y: scroll;
+}
+
+
+.para > p {
+    margin-bottom:0px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+
+@media only screen and (max-width:1024px) {
+    .none {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .gap-5 {
+        gap: 5px !important;
+    }
+
+    .p-3 {
+        padding: 5px !important;
+    }
+
+    .centerBox>i,
+    .rightBox>i {
+        font-size: 18px;
+    }
+
+    .rightBox>img {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .hidden {
+        display: none;
+    }
+}
