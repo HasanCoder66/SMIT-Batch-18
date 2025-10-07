@@ -1,0 +1,14 @@
+:root {
+    --primary-bg-color : #6851ff;
+    --main-color : #ffffff;
+    --text-color : #000;
+}
+
+ul {
+    background-color: var(--primary-bg-color);
+}
+
+ul > li {
+    /* color: #ffffff; */
+    color: var(--text-color);
+}
