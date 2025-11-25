@@ -92,3 +92,25 @@ console.log("return Value --> divide",returnVal())
 // let returnVal = arr.push("Hasan")
 
 // console.log(arr.push("Hasan"))
+
+// // ques 1 //
+// //ans 1 // 
+// function currentDate (){
+//     let current = new Date()
+//     console.log(current)
+// }currentDate()
+
+// // ques 2 //
+// //ans 2 //
+// function fullName(firstName,lastName){
+//   return firstName + lastName
+// }
+// console.log(fullName("Muhmmad","Ismail") 
+// )
+
+// // ques 3 //
+// //ans 3 //
+
+// function add (){
+
+// }console.log(add())
