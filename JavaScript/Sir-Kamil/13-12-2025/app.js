@@ -65,4 +65,8 @@ function submitHandler(e) {
         draggable: true
     });
 
+    setTimeout(function () {
+        window.location.href = "dashboard.html"
+    }, 10000)
+
 }
